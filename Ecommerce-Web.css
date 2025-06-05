@@ -6,3 +6,26 @@
     border-radius: 5px;
     display: none; /* Initially hidden */
   }
+  .img-main{
+    background-image: url("https://images.pexels.com/photos/11753638/pexels-photo-11753638.jpeg");
+    background-image: url('your-image.jpg'); /* Add youbackground image */
+    height: 100vh; /* Full screen height */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .products{
+     padding: 50px;
+     background-color: rgb(231, 195, 166);
+     text-align: center;
+     display:flex;
+     flex-direction: row;
+     column-gap: 26px;
+     
+  }
+  .products img{
+    height:50vh;
+    width:32vw;
+    border-radius: 1.2rem;
+  }
