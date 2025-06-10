@@ -21,7 +21,9 @@
      text-align: center;
      display:flex;
      flex-direction: row;
+     /* flex-wrap: wrap; */
      column-gap: 26px;
+     row-gap: 30px;
      
   }
   .products img{
