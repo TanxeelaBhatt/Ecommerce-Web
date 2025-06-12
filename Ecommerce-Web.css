@@ -28,6 +28,49 @@
   }
   .products img{
     height:50vh;
-    width:32vw;
+    width:42vw;
     border-radius: 1.2rem;
   }
+ @keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.product1,.product2,.product3,.product4,.product5,.product6 {
+    display: inline-block;
+    animation: slide 5s linear infinite;
+}
+@keyframes loopScroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.products {
+    display: flex;
+    overflow: hidden;
+}
+
+.product1,.product2,.product3,.product4,.product5,.product6 {
+    display: inline-block;
+    animation: loopScroll 5s linear infinite;
+}
+.image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
+            color: rgb(168, 133, 113);
+            padding: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
