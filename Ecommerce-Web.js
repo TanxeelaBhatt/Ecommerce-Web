@@ -10,3 +10,7 @@
   document.addEventListener("mouseleave", function() {
     popup.style.display = "none";
   });
+
+  function moveRight() {
+    document.getElementById("scroll-container").scrollLeft += 100;
+}
