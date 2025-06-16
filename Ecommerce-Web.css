@@ -65,12 +65,36 @@
         .image-text {
             position: absolute;
             top: 50%;
-            left: 50%;
+            left: 70%;
             transform: translate(-50%, -50%);
             background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
             color: rgb(168, 133, 113);
             padding: 10px;
-            font-size: 24px;
+            font-size: 90px;
             text-align: center;
         }
+        .categories{
+     padding: 50px;
+     background-color: rgb(231, 195, 166);
+     text-align: center;
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     /* flex-wrap: wrap; */
+     column-gap: 26px;
+     row-gap: 30px;
+     
+  }
+  /* .categories div{
+    height:15vh;
+    background-color: blue;
+    
+  } */
+ 
+        .categories img{
+    height:15vh;
+    width:10vw;
+    border-radius: 1.2rem;
+  }
 
