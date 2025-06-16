@@ -1,100 +1,153 @@
 #popup {
-    position: absolute;
-    background-color: #08525980;
-    color:white;
-    padding: 10px;
-    border-radius: 5px;
-    display: none; /* Initially hidden */
-  }
-  .img-main{
-    background-image: url("https://images.pexels.com/photos/11753638/pexels-photo-11753638.jpeg");
-    background-image: url('your-image.jpg'); /* Add youbackground image */
-    height: 100vh; /* Full screen height */
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .products{
-     padding: 50px;
-     background-color: rgb(231, 195, 166);
-     text-align: center;
-     display:flex;
-     flex-direction: row;
-     /* flex-wrap: wrap; */
-     column-gap: 26px;
-     row-gap: 30px;
-     
-  }
-  .products img{
-    height:50vh;
-    width:42vw;
-    border-radius: 1.2rem;
-  }
- @keyframes slide {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+  position: absolute;
+  background-color: #08525980;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  /* Initially hidden */
 }
 
-.product1,.product2,.product3,.product4,.product5,.product6 {
-    display: inline-block;
-    animation: slide 5s linear infinite;
+header {
+  background: url("https://images.pexels.com/photos/7256063/pexels-photo-7256063.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-@keyframes loopScroll {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+
+.img-main {
+  background-image: url("https://images.pexels.com/photos/11753638/pexels-photo-11753638.jpeg");
+  background-image: url('your-image.jpg');
+  /* Add youbackground image */
+  height: 100vh;
+  /* Full screen height */
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .products {
-    display: flex;
-    overflow: hidden;
+  padding: 50px;
+  background-color: rgb(231, 195, 166);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  column-gap: 26px;
+  row-gap: 30px;
+
 }
 
-.product1,.product2,.product3,.product4,.product5,.product6 {
-    display: inline-block;
-    animation: loopScroll 5s linear infinite;
+.products img {
+  height: 50vh;
+  width: 42vw;
+  border-radius: 1.2rem;
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6 {
+  display: inline-block;
+  animation: slide 5s linear infinite;
+}
+
+@keyframes loopScroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.products {
+  display: flex;
+  overflow: hidden;
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6 {
+  display: inline-block;
+  animation: loopScroll 5s linear infinite;
+}
+
 .image-container {
-            position: relative;
-            display: inline-block;
-        }
-        .image-container img {
-            width: 100%;
-            height: auto;
-        }
-        .image-text {
-            position: absolute;
-            top: 50%;
-            left: 70%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0); /* Semi-transparent background */
-            color: rgb(168, 133, 113);
-            padding: 10px;
-            font-size: 90px;
-            text-align: center;
-        }
-        .categories{
-     padding: 50px;
-     background-color: rgb(231, 195, 166);
-     text-align: center;
-     display:flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     /* flex-wrap: wrap; */
-     column-gap: 26px;
-     row-gap: 30px;
-     
-  }
-  /* .categories div{
-    height:15vh;
-    background-color: blue;
-    
-  } */
- 
-        .categories img{
-    height:15vh;
-    width:10vw;
-    border-radius: 1.2rem;
-  }
+  position: relative;
+  display: inline-block;
+}
 
+.image-container img {
+  width: 100vw;
+  height: auto;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0);
+  /* Semi-transparent background */
+  color: rgb(168, 133, 113);
+  padding: 10px;
+  font-size: 90px;
+  text-align: center;
+}
+
+.categories {
+  height: 30vh;
+  padding: 50px;
+  background: url("https://images.pexels.com/photos/2547462/pexels-photo-2547462.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  column-gap: 26px;
+  row-gap: 30px;
+
+}
+
+.lips,
+.eyes,
+.face,
+.body,
+.hair {
+  height: 20vh;
+  background-color: rgba(255, 192, 203, 0.482);
+  border-radius: 1.2rem;
+
+}
+
+.categories img {
+  height: 15vh;
+  width: 10vw;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.categorytext {
+  background-color: pink;
+}
