@@ -182,8 +182,8 @@ header {
 
 .image-text {
   position: absolute;
-  top: 50%;
-  left: 70%;
+  top: 90%;
+  left: 31%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0);
   /* Semi-transparent background */
