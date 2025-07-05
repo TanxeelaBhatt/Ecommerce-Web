@@ -32,6 +32,10 @@ header {
   height:100vh;
 }
 
+a,ul{
+  font-size:24px;
+}
+
  /* .img-main{
   background:url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
   height: 100vh;
@@ -41,15 +45,15 @@ header {
  }   */
 
 .img-main h1{  
-  font-size: 55px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  font-family: 'Aguafina script';
   font-weight: 800;
   color:white;
   margin-top: 100px;
   margin-left: 50px;;
 }
 #offers{
-  background-color: #611c61;
+  background-color: #6c0d0d;
   color:white;
   font-family: monospace;
   font-size: 22px;
@@ -60,10 +64,11 @@ header {
   height:6.5%;
 }
 .grid{
-  background:url("https://images.pexels.com/photos/15854300/pexels-photo-15854300.jpeg");
+  background:url("ChatGPT Image Jul 4, 2025, 10_39_08 PM.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgb(229, 205, 160);
 }
 .categories {
   height: 40vh;
@@ -96,7 +101,7 @@ header {
 }
 
 .categorytext {
-  background-color: rgb(98, 16, 52);
+  background-color:#6c0d0d;
   color:white;
 }
 
@@ -120,9 +125,15 @@ header {
 }
 
 .products img {
-  height: 50vh;
-  width: 42vw;
+  height: 35vh;
+  width: 50vw;
   border-radius: 1.2rem;
+}
+.products .producttext{
+  background-color: #6c0d0d;
+  height:10vh;
+  color:white;
+
 }
 
 /* @keyframes slide {
@@ -179,23 +190,55 @@ header {
   width: 100vw;
   height: auto;
 }
+.app{
+  width:20vw;
+  height:60vh;
+  border:5px solid black;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.177);
+  position:absolute;
+  top:10%;
+  left:66%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app>p{
 
+}
+.logo{
+  height:10vh;
+  width:12vw;
+  background-color: red;
+  color:white;
+}
+.google, .apple{
+  width:13vw;
+  height:8vh;
+  background-color: black;
+  color:white;
+  gap:8px;
+}
 .image-text {
   position: absolute;
   top: 90%;
-  left: 31%;
+  left: 30%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0);
   /* Semi-transparent background */
   padding: 10px;
-  font-size: 90px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-family:'Aguafina script';
   font-weight: 800;
   color:white;
   
 }
-
+span{
+  font-family:'abel';
+  font-weight: 400;
+  font-size: 50px;
+}
 
 
 .discount{
