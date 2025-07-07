@@ -207,11 +207,25 @@ a,ul{
 .app>p{
 
 }
+.circle{
+  height:2vh;
+  width:1vw;
+  background-color: black;
+  border-radius: 25px;
+  margin-top:;
+
+}
 .logo{
   height:10vh;
   width:12vw;
-  background-color: red;
+  background-color: rgb(192, 30, 41);
   color:white;
+  border:1.5px solid rgba(182, 146, 146, 0.573);
+  border-radius: 10px 50px;
+  box-shadow: 8px 8px 4px rgb(112, 107, 97);
+  font-size: 24px;
+  text-align: center;
+  padding:13px;
 }
 .google, .apple{
   width:13vw;
