@@ -14,7 +14,7 @@
       width: 160px;
       background-color: #333;
       color: #fff;
-      text-align: center;
+      text-align: center ;
       padding: 8px;
       border-radius: 4px;}
 
@@ -25,9 +25,9 @@ opacity:1;
 }
 
 header {
-   background: url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
+  background: url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:right top;
   background-size: cover;
   height:100vh;
 }
@@ -64,7 +64,7 @@ a,ul{
   height:6.5%;
 }
 .grid{
-  background:url("ChatGPT Image Jul 4, 2025, 10_39_08 PM.png");
+  background:url("https://images.pexels.com/photos/8516720/pexels-photo-8516720.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -81,6 +81,17 @@ a,ul{
   /* flex-wrap: wrap; */
   column-gap: 26px;
   row-gap: 30px;
+
+  /* background-image: url("https://images.pexels.com/photos/10816859/pexels-photo-10816859.jpeg");
+  background-color:#D4A0A4;
+  color:white;
+  border:1.5px solid rgba(182, 146, 146, 0.573);
+  border-radius: 50px 10px;
+  box-shadow: 8px 8px 4px rgb(112, 107, 97);
+  font-size: 24px;
+  text-align: center; */
+  /* padding:13px; */
+  /* font:400 30px 'Aguafina script'; */
 
 }
 .lips,
@@ -201,38 +212,52 @@ a,ul{
   left:66%;
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .app>p{
-
+ font: 400 29px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 .circle{
   height:2vh;
   width:1vw;
   background-color: black;
   border-radius: 25px;
-  margin-top:;
+  margin-top:5px;
 
 }
 .logo{
   height:10vh;
   width:12vw;
   background-color: rgb(192, 30, 41);
+  background-image: url("https://images.pexels.com/photos/7233105/pexels-photo-7233105.jpeg");
+  background-size: cover;
+  background-position:center ;
   color:white;
   border:1.5px solid rgba(182, 146, 146, 0.573);
-  border-radius: 10px 50px;
+  border-radius: 50px 10px;
   box-shadow: 8px 8px 4px rgb(112, 107, 97);
   font-size: 24px;
   text-align: center;
   padding:13px;
+  font:400 30px 'Aguafina script';
 }
 .google, .apple{
-  width:13vw;
+  width:14vw;
   height:8vh;
   background-color: black;
   color:white;
   gap:8px;
+  text-align: center;
+  display:flex;
+  font-family:'abel';
+}
+svg{
+  height:5vh;
+  width:5vw;
+}
+.google span, .apple span{
+  font-size: 22px;
 }
 .image-text {
   position: absolute;
