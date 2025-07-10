@@ -16,7 +16,8 @@
       color: #fff;
       text-align: center ;
       padding: 8px;
-      border-radius: 4px;}
+      border-radius: 4px;
+    }
 
 .img-main:hover #popup{
 visibility: visible;
@@ -64,7 +65,8 @@ a,ul{
   height:6.5%;
 }
 .grid{
-  background:url("https://images.pexels.com/photos/8516720/pexels-photo-8516720.jpeg");
+  width:100vw;
+  background:url("https://images.pexels.com/photos/7232914/pexels-photo-7232914.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -72,6 +74,7 @@ a,ul{
 }
 .categories {
   height: 40vh;
+  width:98vw;
   padding: 50px;
   display: grid;
   grid-template-rows: auto auto;
@@ -82,14 +85,16 @@ a,ul{
   column-gap: 26px;
   row-gap: 30px;
 
-  /* background-image: url("https://images.pexels.com/photos/10816859/pexels-photo-10816859.jpeg");
+  background-image: url("https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg");
+  background-position: center;
+  background-size: cover;;
   background-color:#D4A0A4;
   color:white;
   border:1.5px solid rgba(182, 146, 146, 0.573);
   border-radius: 50px 10px;
   box-shadow: 8px 8px 4px rgb(112, 107, 97);
   font-size: 24px;
-  text-align: center; */
+  text-align: center;
   /* padding:13px; */
   /* font:400 30px 'Aguafina script'; */
 
@@ -100,19 +105,21 @@ a,ul{
 .body,
 .hair {
   height: 20vh;
+  width:16vw;
   background-color: rgba(167, 119, 127, 0.482);
   border-radius: 1.2rem;
 
 }
 
 .categories img {
-  height: 15vh;
-  width: 10vw;
+  height: 20vh;
+  width: 16vw;
+  border: 2px solid rgba(255, 253, 253, 0.037);
   border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .categorytext {
-  background-color:#6c0d0d;
+  background-color:#CF979C;
   color:white;
 }
 
@@ -271,14 +278,22 @@ svg{
   font-family:'Aguafina script';
   font-weight: 800;
   color:white;
-  
 }
 span{
   font-family:'abel';
   font-weight: 400;
   font-size: 50px;
 }
-
+.off{
+  background-color: rgb(168, 133, 89);
+  color:white;
+  position: absolute;
+  top:85%;
+  left:70%;
+  height:25vh;
+  width:30vw;
+  border-radius: 100% 0% 0% 100%;
+}
 
 .discount{
   background: url("https://images.pexels.com/photos/19572463/pexels-photo-19572463.jpeg");
