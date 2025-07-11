@@ -73,7 +73,7 @@ a,ul{
   background-color: rgb(229, 205, 160);
 }
 .categories {
-  height: 40vh;
+  height: 50vh;
   width:98vw;
   padding: 50px;
   display: grid;
@@ -83,7 +83,8 @@ a,ul{
   justify-content: center;
   /* flex-wrap: wrap; */
   column-gap: 26px;
-  row-gap: 30px;
+  row-gap: 25px;
+  padding-top: 0;
 
   background-image: url("https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg");
   background-position: center;
@@ -96,7 +97,7 @@ a,ul{
   font-size: 24px;
   text-align: center;
   /* padding:13px; */
-  /* font:400 30px 'Aguafina script'; */
+  font:400 30px 'Aguafina script';
 
 }
 .lips,
@@ -104,7 +105,7 @@ a,ul{
 .face,
 .body,
 .hair {
-  height: 20vh;
+  height: 25vh;
   width:16vw;
   background-color: rgba(167, 119, 127, 0.482);
   border-radius: 1.2rem;
@@ -112,15 +113,20 @@ a,ul{
 }
 
 .categories img {
-  height: 20vh;
+  height: 25vh;
   width: 16vw;
   border: 2px solid rgba(255, 253, 253, 0.037);
   border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .categorytext {
-  background-color:#CF979C;
+  background-color:#DF5C4B;
   color:white;
+  font:600 26px 'Aguafina script';
+}
+.categorytext:hover{
+background-color:#9f3142;
+zoom: 120%;
 }
 
 .text{
@@ -148,7 +154,7 @@ a,ul{
   border-radius: 1.2rem;
 }
 .products .producttext{
-  background-color: #6c0d0d;
+  background-color: #CF979C;
   height:10vh;
   color:white;
 
