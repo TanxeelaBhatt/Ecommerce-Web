@@ -36,6 +36,14 @@ header {
 a,ul{
   font-size:24px;
 }
+nav{
+  position:sticky;
+  top:0;
+  /* background-color: pink; */
+}
+nav:hover{
+background-color:beige;
+}
 
  /* .img-main{
   background:url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
@@ -71,6 +79,7 @@ a,ul{
   background-position: center;
   background-size: cover;
   background-color: rgb(229, 205, 160);
+  background-attachment: fixed;
 }
 .categories {
   height: 50vh;
@@ -86,7 +95,7 @@ a,ul{
   row-gap: 25px;
   padding-top: 0;
 
-  background-image: url("https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg");
+  /* background-image: url("https://images.pexels.com/photos/1447367/pexels-photo-1447367.jpeg");
   background-position: center;
   background-size: cover;;
   background-color:#D4A0A4;
@@ -97,7 +106,7 @@ a,ul{
   font-size: 24px;
   text-align: center;
   /* padding:13px; */
-  font:400 30px 'Aguafina script';
+  font:400 30px 'Aguafina script'; */
 
 }
 .lips,
@@ -120,9 +129,13 @@ a,ul{
 }
 
 .categorytext {
-  background-color:#DF5C4B;
-  color:white;
-  font:600 26px 'Aguafina script';
+  background-image: url("https://media.istockphoto.com/id/1308402756/photo/red-limestone-wall-with-visible-details-background.jpg?s=612x612&w=0&k=20&c=F4fFhqnKp8deve4BIfV31-2y5iEUGMi8zj4SwbdcENs=");
+  background-size: cover;
+  background-position: center;
+  background-color:#441F28    ;
+  color:#fff;
+  font:600 26px  serif,'Aguafina script';
+  text-align: center;
 }
 .categorytext:hover{
 background-color:#9f3142;
@@ -155,6 +168,9 @@ zoom: 120%;
 }
 .products .producttext{
   background-color: #CF979C;
+  background-image: url("https://media.istockphoto.com/id/1476269505/photo/red-texture-powder-background-pedra-sand-red-color-dark-red-intense-dark-red-cracks-waves.jpg?s=612x612&w=0&k=20&c=vlNrQTSud4F6jMIVDF94nlV_0KK-6GqzNiU6iY1SohA=");
+  background-size: cover;
+  background-position: center;
   height:10vh;
   color:white;
 
@@ -243,7 +259,7 @@ zoom: 120%;
   height:10vh;
   width:12vw;
   background-color: rgb(192, 30, 41);
-  background-image: url("https://images.pexels.com/photos/7233105/pexels-photo-7233105.jpeg");
+  background-image: url("https://media.istockphoto.com/id/1988746307/photo/red-swatch-of-lipgloss-bright-color-cosmetic-product-stroke-acryl-gouache-oil-paint-texture.jpg?s=612x612&w=0&k=20&c=_nig6WhFZjgoR4caEcdEuiP6MElvyBMeaZyzvU99sJE=");
   background-size: cover;
   background-position:center ;
   color:white;
