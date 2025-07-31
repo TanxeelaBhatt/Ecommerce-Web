@@ -36,14 +36,6 @@ header {
 a,ul{
   font-size:24px;
 }
-nav{
-  position:sticky;
-  top:0;
-  /* background-color: pink; */
-}
-nav:hover{
-background-color:beige;
-}
 
  /* .img-main{
   background:url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
@@ -224,11 +216,13 @@ zoom: 120%;
 .image-container {
   position: relative;
   display: inline-block;
+  /* height:160vh; */
 }
 
 .image-container img {
   width: 100vw;
-  height: auto;
+  height: 190vh;
+  background-size: contain;
 }
 .app{
   width:20vw;
@@ -253,8 +247,8 @@ zoom: 120%;
   background-color: black;
   border-radius: 25px;
   margin-top:5px;
-
 }
+
 .logo{
   height:10vh;
   width:12vw;
@@ -315,6 +309,14 @@ span{
   height:25vh;
   width:30vw;
   border-radius: 100% 0% 0% 100%;
+}
+.subs{
+   background-color: rgb(168, 133, 89);
+  color:white;
+  position: absolute;
+  top:80% ;
+  left:70%;
+
 }
 
 .discount{
