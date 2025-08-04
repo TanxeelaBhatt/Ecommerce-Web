@@ -30,11 +30,18 @@ header {
   background-repeat: no-repeat;
   background-position:right top;
   background-size: cover;
-  height:100vh;
+  height:110vh;
 }
 
 a,ul{
   font-size:24px;
+}
+li>img{
+  height:4vh;
+  width:4vw;
+}
+li>img:hover{
+
 }
 
  /* .img-main{
@@ -72,10 +79,17 @@ a,ul{
   background-size: cover;
   background-color: rgb(229, 205, 160);
   background-attachment: fixed;
+  display:grid;
 }
 .categories {
-  height: 50vh;
-  width:98vw;
+  height: 40vh;
+  width:100vw;
+  margin:20px;
+  position: relative;
+  top:-50%;
+  background:#6c0d0d;
+  color:blanchedalmond;
+  border-radius: 20px;
   padding: 50px;
   display: grid;
   grid-template-rows: auto auto;
@@ -98,40 +112,40 @@ a,ul{
   font-size: 24px;
   text-align: center;
   /* padding:13px; */
-  font:400 30px 'Aguafina script'; */
-
+  /* font:400 30px 'Aguafina script'; */ 
 }
+
 .lips,
 .eyes,
 .face,
 .body,
 .hair {
   height: 25vh;
-  width:16vw;
-  background-color: rgba(167, 119, 127, 0.482);
+  width:14vw;
+  /* background-color: rgba(167, 119, 127, 0.482); */
   border-radius: 1.2rem;
 
 }
 
 .categories img {
-  height: 25vh;
+  height: 15vh;
   width: 16vw;
   border: 2px solid rgba(255, 253, 253, 0.037);
   border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .categorytext {
-  background-image: url("https://media.istockphoto.com/id/1308402756/photo/red-limestone-wall-with-visible-details-background.jpg?s=612x612&w=0&k=20&c=F4fFhqnKp8deve4BIfV31-2y5iEUGMi8zj4SwbdcENs=");
+  /* background-image: url("https://media.istockphoto.com/id/1308402756/photo/red-limestone-wall-with-visible-details-background.jpg?s=612x612&w=0&k=20&c=F4fFhqnKp8deve4BIfV31-2y5iEUGMi8zj4SwbdcENs="); */
   background-size: cover;
   background-position: center;
-  background-color:#441F28    ;
-  color:#fff;
+  background-color:#6b1f32;
+  color:blanchedalmond;
   font:600 26px  serif,'Aguafina script';
   text-align: center;
 }
 .categorytext:hover{
 background-color:#9f3142;
-zoom: 120%;
+zoom: 130%;
 }
 
 .text{
@@ -142,6 +156,9 @@ zoom: 120%;
   grid-column: 1/span4;
 }
 .products {
+  margin:30px;
+  background:rgba(38, 37, 37, 0.76);
+  border-radius: 20px;
   padding: 50px;
   text-align: center;
   display: grid;
@@ -158,9 +175,10 @@ zoom: 120%;
   width: 50vw;
   border-radius: 1.2rem;
 }
+
 .products .producttext{
-  background-color: #CF979C;
-  background-image: url("https://media.istockphoto.com/id/1476269505/photo/red-texture-powder-background-pedra-sand-red-color-dark-red-intense-dark-red-cracks-waves.jpg?s=612x612&w=0&k=20&c=vlNrQTSud4F6jMIVDF94nlV_0KK-6GqzNiU6iY1SohA=");
+  background-color: #000000;
+  /* background-image: url("https://media.istockphoto.com/id/1476269505/photo/red-texture-powder-background-pedra-sand-red-color-dark-red-intense-dark-red-cracks-waves.jpg?s=612x612&w=0&k=20&c=vlNrQTSud4F6jMIVDF94nlV_0KK-6GqzNiU6iY1SohA="); */
   background-size: cover;
   background-position: center;
   height:10vh;
@@ -223,6 +241,7 @@ zoom: 120%;
   width: 100vw;
   height: 190vh;
   background-size: contain;
+  
 }
 .app{
   width:20vw;
@@ -250,16 +269,15 @@ zoom: 120%;
 }
 
 .logo{
-  height:10vh;
+  /* height:10vh;
   width:12vw;
-  background-color: rgb(192, 30, 41);
-  background-image: url("https://media.istockphoto.com/id/1988746307/photo/red-swatch-of-lipgloss-bright-color-cosmetic-product-stroke-acryl-gouache-oil-paint-texture.jpg?s=612x612&w=0&k=20&c=_nig6WhFZjgoR4caEcdEuiP6MElvyBMeaZyzvU99sJE=");
+  background-color: rgb(192, 30, 41); */
   background-size: cover;
   background-position:center ;
-  color:white;
-  border:1.5px solid rgba(182, 146, 146, 0.573);
-  border-radius: 50px 10px;
-  box-shadow: 8px 8px 4px rgb(112, 107, 97);
+  color:#000000;
+  /* border:1.5px solid rgba(182, 146, 146, 0.573);
+  border-radius: 50px 10px; */
+  /* box-shadow: 8px 8px 4px rgb(112, 107, 97); */
   font-size: 24px;
   text-align: center;
   padding:13px;
