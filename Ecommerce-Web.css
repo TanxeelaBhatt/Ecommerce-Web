@@ -36,28 +36,29 @@ header {
 a,ul{
   font-size:24px;
 }
+ul{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 li>img{
   height:4vh;
   width:4vw;
 }
-li>img:hover{
 
-}
-
- /* .img-main{
-  background:url("https://images.pexels.com/photos/8182366/pexels-photo-8182366.jpeg");
+ .img-main{
   height: 100vh;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
- }   */
+ }  
 
-.img-main h1{  
+.img-main h1{ 
   font-size: 70px;
   font-family: 'Aguafina script';
   font-weight: 800;
   color:white;
-  margin-top: 100px;
+  margin-top: 66px;
   margin-left: 50px;;
 }
 #offers{
@@ -67,7 +68,7 @@ li>img:hover{
   font-size: 22px;
   border-radius:3px;
   margin-left: 50px;
-  margin-top:16px;
+  margin-top:14px;
   width:20%;
   height:6.5%;
 }
@@ -84,12 +85,12 @@ li>img:hover{
 .categories {
   height: 40vh;
   width:100vw;
-  margin:20px;
+  /* margin:20px; */
   position: relative;
-  top:-50%;
-  background:#6c0d0d;
-  color:blanchedalmond;
-  border-radius: 20px;
+  top:-10%;
+  background:#EBDDC8;
+  color:rgb(245, 109, 131);
+  /* border-radius: 20px; */
   padding: 50px;
   display: grid;
   grid-template-rows: auto auto;
@@ -120,31 +121,35 @@ li>img:hover{
 .face,
 .body,
 .hair {
-  height: 25vh;
-  width:14vw;
-  /* background-color: rgba(167, 119, 127, 0.482); */
-  border-radius: 1.2rem;
-
+  height: 27vh;
+  width:20vw;
+  background-color: rgba(254, 100, 126, 0.482);
+  border-radius: 100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column ;
 }
 
 .categories img {
   height: 15vh;
-  width: 16vw;
+  width: 15vw;
+
   border: 2px solid rgba(255, 253, 253, 0.037);
   border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .categorytext {
   /* background-image: url("https://media.istockphoto.com/id/1308402756/photo/red-limestone-wall-with-visible-details-background.jpg?s=612x612&w=0&k=20&c=F4fFhqnKp8deve4BIfV31-2y5iEUGMi8zj4SwbdcENs="); */
-  background-size: cover;
-  background-position: center;
-  background-color:#6b1f32;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-color:#6b1f32; */
   color:blanchedalmond;
   font:600 26px  serif,'Aguafina script';
   text-align: center;
 }
 .categorytext:hover{
-background-color:#9f3142;
+color:#9f3142;
 zoom: 130%;
 }
 
@@ -157,7 +162,7 @@ zoom: 130%;
 }
 .products {
   margin:30px;
-  background:rgba(38, 37, 37, 0.76);
+  background:#6c4d3bc6;
   border-radius: 20px;
   padding: 50px;
   text-align: center;
@@ -167,7 +172,7 @@ zoom: 130%;
   /* flex-wrap: wrap; */
   column-gap: 26px;
   row-gap: 30px;
-
+  color:#D7BA90;
 }
 
 .products img {
@@ -176,16 +181,30 @@ zoom: 130%;
   border-radius: 1.2rem;
 }
 
+.producttext img{
+  width:2vw;
+  height:2vh;
+}
 .products .producttext{
-  background-color: #000000;
+  background-color: #5f1111;
   /* background-image: url("https://media.istockphoto.com/id/1476269505/photo/red-texture-powder-background-pedra-sand-red-color-dark-red-intense-dark-red-cracks-waves.jpg?s=612x612&w=0&k=20&c=vlNrQTSud4F6jMIVDF94nlV_0KK-6GqzNiU6iY1SohA="); */
   background-size: cover;
   background-position: center;
   height:10vh;
   color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
-
+.producttext img{
+  flex-shrink: 0;
+  align-self:flex-start;
+}
+.producttext span{
+  align-self: flex-end;
+}
 /* @keyframes slide {
   0% {
     transform: translateX(100%);
@@ -254,7 +273,7 @@ zoom: 130%;
   left:66%;
   display:flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 .app>p{
@@ -267,7 +286,34 @@ zoom: 130%;
   border-radius: 25px;
   margin-top:5px;
 }
-
+.sale{
+  width:200px;
+  height:200px;;
+  position:absolute;
+  background-color: rgb(189, 0, 0);
+  border-radius: 100%;
+  border:4px groove rgb(254, 244, 203);
+  top:70%;
+  left:75%;
+  /* background-image: url("https://cdn-icons-png.flaticon.com/128/13636/13636711.png"); */
+  background-size: 150px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.sale>h1{
+  font-size: 60px;
+  font-family:'abel,'Aguafina script'';
+  font-weight: 800;
+  color:#000000;
+}
+.sale h2{
+  font-size:50px;
+  font-family:'abel,'Aguafina script'';
+  font-weight: 600;
+  color:white;
+}
+.sale h1,h2,p{
+text-align: center;}
 .logo{
   /* height:10vh;
   width:12vw;
@@ -280,7 +326,7 @@ zoom: 130%;
   /* box-shadow: 8px 8px 4px rgb(112, 107, 97); */
   font-size: 24px;
   text-align: center;
-  padding:13px;
+  padding:10px;
   font:400 30px 'Aguafina script';
 }
 .google, .apple{
@@ -340,3 +386,16 @@ span{
 .discount{
   background: url("https://images.pexels.com/photos/19572463/pexels-photo-19572463.jpeg");
 }
+/* @media (max-width: 600px) {
+  .categories{
+    grid-template-columns: repeat(2, 1fr); /*despite creating only 2 cols,its showing 3 cols."CHECK IT LATER"
+    grid-template-columns: 50% 50%;
+    height:64vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
